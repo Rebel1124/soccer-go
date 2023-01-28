@@ -6,6 +6,7 @@ import random
 from dash import dcc
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 PlayerBack_style = {'background-image': 'url(assets/PlayerBack.jpg',
                 'background-repeat': 'no-repeat',
